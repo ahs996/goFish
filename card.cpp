@@ -1,8 +1,9 @@
-#include <iostream>    // Provides cout and cin
-#include <cstdlib>     // Provides EXIT_SUCCESS
+// FILE: card.cpp
+//  * Name: Anna Sim
+//  * email address: ahs996@utexas.edu
+//  * UTEID: ahs996
+//  * Section 5 digit ID: 16185
 #include "card.h"
-
-using namespace std;
 
 Card::Card(){
     myRank = 1;
@@ -26,6 +27,9 @@ string Card::rankString(int r) const {
         case 1:
             rankStr = 'A';
             break;
+        case 10:
+            rankStr.push_back('1');
+            rankStr.push_back('0');
         case 11:
             rankStr = 'J';
             break;
@@ -36,9 +40,9 @@ string Card::rankString(int r) const {
             rankStr = 'K';
             break;
         default:
-            rankStr = to_string(r);
+            rankStr.push_back(static_cast<char>(r + 48));
     }
-
+    return rankStr;
 }
 
 string Card::suitString(Suit s) const{

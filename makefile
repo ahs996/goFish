@@ -17,7 +17,7 @@ all: gofish
 clean: 
 	${RM} $(OBJ) $(BIN)
 
-	$(BIN): $(OBJ)
+$(BIN): $(OBJ)
 	$(CPP) $(LINKOBJ) -o gofish $(LIBS)
 
 card.o: card.cpp

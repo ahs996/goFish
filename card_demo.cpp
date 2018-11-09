@@ -1,4 +1,8 @@
 // FILE: card_demo.cpp
+//  * Name: Anna Sim
+//  * email address: ahs996@utexas.edu
+//  * UTEID: ahs996
+//  * Section 5 digit ID: 16185
 // This is a small demonstration program showing how the Card and Deck classes are used.
 #include <iostream>    // Provides cout and cin
 #include <cstdlib>     // Provides EXIT_SUCCESS

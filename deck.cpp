@@ -1,9 +1,9 @@
-#include <iostream>    // Provides cout and cin
-#include <cstdlib>     // Provides EXIT_SUCCESS
-#include <ctime>
+// FILE:deck.cpp
+//  * Name: Anna Sim
+//  * email address: ahs996@utexas.edu
+//  * UTEID: ahs996
+//  * Section 5 digit ID: 16185
 #include "deck.h"
-
-using namespace std;
 
 Deck::Deck() {
     for(int i=0; i<4; i++){
@@ -27,28 +27,23 @@ Deck::Deck() {
         }
     }
     myIndex = 0;
+    unsigned int currentTime = (unsigned)time(0);
+    srand(currentTime); 
 }
 
 void Deck::shuffle(){
-    unsigned int currentTime = (unsigned)time(0);
-    srand(currentTime); 
+    int randomI = (rand() % size());
+    int randomI2 = (rand() % size());
     Card temp;
     for(int i=0; i<1000; i++){
-        int randomI = (rand() % size());
-        int randomI2 = (rand() % size());
         temp = myCards[randomI];
         myCards[randomI] = myCards[randomI2];
         myCards[randomI2] = temp;
     }
 }
-
+// precondition: The deck is never empty
 Card Deck::dealCard(){
-    if (myIndex == 52){
-        return;
-    }
-    else {
-        return myCards[myIndex++];
-    }
+    return myCards[myIndex++];
 }
 
 int Deck::size() const {
