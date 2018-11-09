@@ -19,7 +19,7 @@ using namespace std;
 // PROTOTYPES for functions used by this demonstration program:
 void dealHand(Deck &d, Player &p, int numCards);
 void playerGame(Player &p1, Player &p2, Deck &d);
-fstream fs;
+ofstream fs;
 
 int main( )
 {
@@ -39,10 +39,10 @@ int main( )
        
     fs << p1.getName() <<" has : " << p1.showHand() << endl;
     fs << p2.getName() <<" has : " << p2.showHand() << endl;
+    fs << endl;
     
-    p1Turn = true;
-    fs << p1.getBookSize() << endl;
-    fs << p2.getBookSize() << endl;
+    p1Turn = true; //a flag to switch the players turn
+
     while(p1.getBookSize() + p2.getBookSize() < 52){
 
         if(p1Turn){
@@ -55,6 +55,8 @@ int main( )
        }
     }
     
+    // game ends once a book has all pairs
+
     if (p1.getBookSize() < p2.getBookSize()){
         fs << p1.getName() << " wins" << endl;
     }
@@ -67,7 +69,7 @@ int main( )
         fs << p2.getName() << " wins" << endl;
     }
     
-    fs.close();
+    fs.close(); //close file
 
     return EXIT_SUCCESS;  
 }
@@ -87,12 +89,13 @@ void playerGame(Player &p1, Player &p2, Deck &d){
 
     while(pTurn){
         while (p1.checkHandForBook(pCard, pCard2)) {
+            // check for existing pairs in the hand then add to book
             p1.bookCards(pCard, pCard2);
         }
 
 
         if(p1.getHandSize() == 0) {
-            
+            // break if handsize is 0
             break;
         }
         
@@ -101,6 +104,7 @@ void playerGame(Player &p1, Player &p2, Deck &d){
         
         fs << p1.getName() << " asks - Do you have a " <<  pCard.rankString(pCard.getRank())+"?" << endl;
         if (p2.rankInHand(pCard)) {
+            // if p2 has the card p1 asks for, do:
             fs << p2.getName() << " says - Yes I have a " << pCard.rankString(pCard.getRank())+"."  << endl;
             pCard2 = p2.removeCardFromHand(pCard);
             p1.addCard(pCard2);
@@ -110,11 +114,12 @@ void playerGame(Player &p1, Player &p2, Deck &d){
         }
         else {
             fs << p2.getName() << " says - Go Fish" << endl;
-            // fs << p1.getName()+" draws "+
             pTurn = false;
         }
 
     }
+    // while the deck is not empty, draw a card
+    // draw a card when the other player says Go Fish or handsize is 0
     if(d.size() != 0) {
         drawCard = d.dealCard();
         p1.addCard(drawCard);
