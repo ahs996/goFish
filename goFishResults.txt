@@ -1,73 +1,74 @@
 Joe has : As, 2s, 3s, 4s, 5s, 
 Jane has : 6s, 7s, 8s, 9s, Js, 
-Joe asks - Do you have a 2?
+
+Joe asks - Do you have a 3?
 Jane says - Go Fish
 Joe draws the Js
 *********************************************************
-Jane asks - Do you have a J?
+Jane asks - Do you have a 9?
 Joe says - Go Fish
 Jane draws the Qs
 *********************************************************
-Joe asks - Do you have a 5?
+Joe asks - Do you have a 4?
 Jane says - Go Fish
 Joe draws the Ks
 *********************************************************
-Jane asks - Do you have a 6?
+Jane asks - Do you have a Q?
 Joe says - Go Fish
 Jane draws the Ah
 *********************************************************
-Joe asks - Do you have a 3?
+Joe asks - Do you have a 4?
 Jane says - Go Fish
 Joe draws the 2h
 *********************************************************
-Jane asks - Do you have a A?
-Joe says - Yes I have a A.
-Jane books the A
-Jane asks - Do you have a J?
+Jane asks - Do you have a Q?
 Joe says - Go Fish
 Jane draws the 3h
 *********************************************************
-Joe asks - Do you have a A?
+Joe asks - Do you have a 3?
+Jane says - Yes I have a 3.
+Joe books the 3
+Joe asks - Do you have a J?
 Jane says - Go Fish
 Joe draws the 4h
 *********************************************************
-Jane asks - Do you have a 3?
-Joe says - Yes I have a 3.
-Jane books the 3
-Jane asks - Do you have a J?
+Jane asks - Do you have a 9?
 Joe says - Go Fish
 Jane draws the 5h
 *********************************************************
+Joe asks - Do you have a 5?
+Jane says - Yes I have a 5.
+Joe books the 5
 Joe asks - Do you have a K?
 Jane says - Go Fish
 Joe draws the 6h
 *********************************************************
-Jane asks - Do you have a J?
+Jane asks - Do you have a 9?
 Joe says - Go Fish
 Jane draws the 7h
 *********************************************************
-Joe asks - Do you have a K?
+Joe asks - Do you have a 6?
+Jane says - Yes I have a 6.
+Joe books the 6
+Joe asks - Do you have a A?
+Jane says - Yes I have a A.
+Joe books the A
+Joe asks - Do you have a J?
 Jane says - Go Fish
 Joe draws the 8h
 *********************************************************
 Jane asks - Do you have a 8?
 Joe says - Yes I have a 8.
 Jane books the 8
-Jane asks - Do you have a J?
+Jane asks - Do you have a 3?
 Joe says - Go Fish
 Jane draws the 9h
 *********************************************************
-Joe asks - Do you have a 6?
-Jane says - Yes I have a 6.
-Joe books the 6
 Joe asks - Do you have a K?
 Jane says - Go Fish
 Joe draws the Jh
 *********************************************************
-Jane asks - Do you have a J?
-Joe says - Yes I have a J.
-Jane books the J
-Jane asks - Do you have a Q?
+Jane asks - Do you have a 6?
 Joe says - Go Fish
 Jane draws the Jh
 *********************************************************
@@ -75,39 +76,39 @@ Joe asks - Do you have a 8?
 Jane says - Go Fish
 Joe draws the Qh
 *********************************************************
-Jane asks - Do you have a Q?
-Joe says - Yes I have a Q.
-Jane books the Q
-Jane asks - Do you have a J?
-Joe says - Yes I have a J.
-Jane books the J
 Jane asks - Do you have a 6?
 Joe says - Go Fish
 Jane draws the Kh
 *********************************************************
-Joe asks - Do you have a J?
+Joe asks - Do you have a K?
+Jane says - Yes I have a K.
+Joe books the K
+Joe asks - Do you have a 8?
 Jane says - Go Fish
 Joe draws the Ad
 *********************************************************
-Jane asks - Do you have a 5?
-Joe says - Yes I have a 5.
-Jane books the 5
-Jane asks - Do you have a K?
-Joe says - Yes I have a K.
-Jane books the K
-Jane asks - Do you have a 6?
+Jane asks - Do you have a Q?
+Joe says - Yes I have a Q.
+Jane books the Q
+Jane asks - Do you have a 3?
 Joe says - Go Fish
 Jane draws the 2d
 *********************************************************
-Joe asks - Do you have a 5?
+Joe asks - Do you have a 8?
 Jane says - Go Fish
 Joe draws the 3d
 *********************************************************
-Jane asks - Do you have a 6?
+Jane asks - Do you have a A?
+Joe says - Yes I have a A.
+Jane books the A
+Jane asks - Do you have a K?
 Joe says - Go Fish
 Jane draws the 4d
 *********************************************************
-Joe asks - Do you have a J?
+Joe asks - Do you have a 3?
+Jane says - Yes I have a 3.
+Joe books the 3
+Joe asks - Do you have a A?
 Jane says - Go Fish
 Joe draws the 5d
 *********************************************************
@@ -115,11 +116,14 @@ Jane asks - Do you have a 4?
 Joe says - Go Fish
 Jane draws the 6d
 *********************************************************
-Joe asks - Do you have a Q?
+Joe asks - Do you have a 5?
+Jane says - Yes I have a 5.
+Joe books the 5
+Joe asks - Do you have a 8?
 Jane says - Go Fish
 Joe draws the 7d
 *********************************************************
-Jane asks - Do you have a 2?
+Jane asks - Do you have a K?
 Joe says - Go Fish
 Jane draws the 8d
 *********************************************************
@@ -131,7 +135,7 @@ Jane asks - Do you have a 2?
 Joe says - Go Fish
 Jane draws the Jd
 *********************************************************
-Joe asks - Do you have a J?
+Joe asks - Do you have a 7?
 Jane says - Go Fish
 Joe draws the Jd
 *********************************************************
@@ -143,33 +147,45 @@ Joe asks - Do you have a 7?
 Jane says - Go Fish
 Joe draws the Kd
 *********************************************************
-Jane asks - Do you have a 4?
+Jane asks - Do you have a 5?
 Joe says - Go Fish
 Jane draws the Ac
 *********************************************************
-Joe asks - Do you have a 8?
-Jane says - Yes I have a 8.
-Joe books the 8
-Joe asks - Do you have a 9?
+Joe asks - Do you have a K?
+Jane says - Yes I have a K.
+Joe books the K
+Joe asks - Do you have a 7?
 Jane says - Go Fish
 Joe draws the 2c
 *********************************************************
-Jane asks - Do you have a 4?
+Jane asks - Do you have a 8?
+Joe says - Yes I have a 8.
+Jane books the 8
+Jane asks - Do you have a K?
 Joe says - Go Fish
 Jane draws the 3c
 *********************************************************
-Joe asks - Do you have a J?
-Jane says - Yes I have a J.
-Joe books the J
 Joe asks - Do you have a 9?
 Jane says - Go Fish
 Joe draws the 4c
 *********************************************************
-Jane asks - Do you have a 3?
+Jane asks - Do you have a Q?
+Joe says - Yes I have a Q.
+Jane books the Q
+Jane asks - Do you have a 4?
+Joe says - Yes I have a 4.
+Jane books the 4
+Jane asks - Do you have a 2?
+Joe says - Yes I have a 2.
+Jane books the 2
+Jane asks - Do you have a A?
+Joe says - Yes I have a A.
+Jane books the A
+Jane asks - Do you have a K?
 Joe says - Go Fish
 Jane draws the 5c
 *********************************************************
-Joe asks - Do you have a 9?
+Joe asks - Do you have a 2?
 Jane says - Go Fish
 Joe draws the 6c
 *********************************************************
@@ -177,49 +193,20 @@ Jane asks - Do you have a J?
 Joe says - Go Fish
 Jane draws the 7c
 *********************************************************
-Joe asks - Do you have a 4?
-Jane says - Yes I have a 4.
-Joe books the 4
-Joe asks - Do you have a 6?
+Joe asks - Do you have a J?
 Jane says - Go Fish
 Joe draws the 8c
 *********************************************************
-Jane asks - Do you have a 7?
-Joe says - Yes I have a 7.
-Jane books the 7
-Jane asks - Do you have a 3?
+Jane asks - Do you have a J?
 Joe says - Go Fish
 Jane draws the 9c
 *********************************************************
+Joe asks - Do you have a 7?
+Jane says - Yes I have a 7.
+Joe books the 7
 Joe asks - Do you have a 6?
 Jane says - Go Fish
 Joe draws the Jc
 *********************************************************
-Jane asks - Do you have a 8?
-Joe says - Yes I have a 8.
-Jane books the 8
-Jane asks - Do you have a 5?
-Joe says - Go Fish
-Jane draws the Jc
-*********************************************************
-Joe asks - Do you have a 9?
-Jane says - Yes I have a 9.
-Joe books the 9
-Joe asks - Do you have a 7?
-Jane says - Go Fish
-Joe draws the Qc
-*********************************************************
-Jane asks - Do you have a J?
-Joe says - Go Fish
-Jane draws the Kc
-*********************************************************
-Joe asks - Do you have a 2?
-Jane says - Yes I have a 2.
-Joe books the 2
-Joe asks - Do you have a J?
-Jane says - Yes I have a J.
-Joe books the J
-Joe asks - Do you have a 6?
-Jane says - Go Fish
-*********************************************************
+Joe wins
 Jane wins

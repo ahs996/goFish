@@ -32,6 +32,10 @@ Deck::Deck() {
 }
 
 void Deck::shuffle(){
+    if (size() < 2 ){
+        return;
+    }
+
     int randomI = (rand() % size());
     int randomI2 = (rand() % size());
     Card temp;
